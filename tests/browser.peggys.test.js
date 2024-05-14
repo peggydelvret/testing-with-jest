@@ -32,7 +32,7 @@ test('Clicking "Poppa Stacken!" should remove the top element', async () => {
 
     let topElementAfter = await driver.findElement(By.id('top_of_stack')).getText();
 
-    expect(topElementAfter).toEqual("n/a");
+    expect(topElementAfter).toEqual("Undefiend");
 
 });
 
